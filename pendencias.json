@@ -1,0 +1,43 @@
+{
+  "pendencias": [
+    {
+      "item": "Telefone oficial e WhatsApp do negócio",
+      "onde": "Header, CTA, rodapé, schema JSON-LD",
+      "prioridade": "alta"
+    },
+    {
+      "item": "Logo, fotos reais e identidade visual oficial",
+      "onde": "Branding, hero, favicon, cabeçalho",
+      "prioridade": "alta"
+    },
+    {
+      "item": "Texto oficial dos serviços",
+      "onde": "Seções de serviços, copy final",
+      "prioridade": "alta"
+    },
+    {
+      "item": "Domínio e ambiente de produção",
+      "onde": "SEO, canonical, OG, deploy",
+      "prioridade": "media"
+    },
+    {
+      "item": "Endereço e horários, se aplicáveis",
+      "onde": "Contato, rodapé, schema local",
+      "prioridade": "baixa"
+    }
+  ],
+  "suposicoes": [
+    {
+      "suposicao": "Site é institucional e voltado para pequenos negócios e profissionais locais.",
+      "confirmar": true
+    },
+    {
+      "suposicao": "A ação principal do visitante é entrar em contato por WhatsApp.",
+      "confirmar": true
+    },
+    {
+      "suposicao": "A identidade visual ainda será ajustada com logo e paleta oficiais.",
+      "confirmar": true
+    }
+  ]
+}
